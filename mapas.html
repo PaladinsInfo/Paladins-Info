@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <meta charset="UTF-8">
+    <title>Paladins Info - Mapas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+
+    <style>
+        .tab a.active {
+            background-color: rgba(0, 0, 0, 0)!important;
+        }
+        
+        .title a {
+            color: #1976d2!important;
+        }
+        
+        .tabs .indicator {
+            background-color: #1976d2!important;
+        }
+
+    </style>
+
+    <nav class="nav-extended">
+        <div class="navbar-fixed">
+            <nav class="nav-extended blue-grey darken-4">
+                <div class="nav-wrapper blue-grey darken-4">
+                    <a href="#" class="brand-logo center" style="font-family: 'Gugi', cursive;">Paladins Info</a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                </div>
+                <div class="container blue-grey darken-4 hide-on-med-and-down">
+                    <div class="nav-content">
+                        <ul class="tabs tabs-transparent">
+                            <li class="tab"><a href="index.html" target="_self">Inicio</a></li>
+                            <li class="tab campeones"><a href="campeones.html" target="_self">Campeones</a></li>
+                            <li class="tab mapas"><a class="active" href="mapas.html" target="_self">Mapas</a></li>
+                            <li class="tab roles"><a href="roles.html" target="_self">Roles</a></li>
+                            <li class="tab modos"><a href="modos.html" target="_self">Modos</a></li>
+                            <li class="tab items"><a href="items.html" target="_self">Ítems</a></li>
+                            <li class="tab extra"><a href="extra.html" target="_self">Extra</a></li>
+                            <li class="tab acerca"><a href="acerca.html" target="_self">Acerca de</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <ul class="sidenav" id="mobile-demo">
+            <li class="tab inicio"><a href="index.html">Inicio</a></li>
+            <li class="tab campeones"><a href="campeones.html" target="_self">Campeones</a></li>
+            <li class="tab mapas"><a class="active" href="mapas.html" target="_self">Mapas</a></li>
+            <li class="tab roles"><a href="roles.html" target="_self">Roles</a></li>
+            <li class="tab modos"><a href="modos.html" target="_self">Modos</a></li>
+            <li class="tab items"><a href="items.html" target="_self">Ítems</a></li>
+            <li class="tab extra"><a href="extra.html" target="_self">Extra</a></li>
+            <li class="tab acerca"><a href="acerca.html" target="_self">Acerca de</a></li>
+        </ul>
+    </nav>
+
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large scale-transition scale-out blue darken-2" id="btn-up">
+            <i class="large material-icons">arrow_upward</i>
+        </a>
+    </div>
+
+    <div class="parallax-container">
+        <div class="parallax"><img src="img/campeones/main.jpg"></div>
+    </div>
+
+    <div class="container">
+        <h3 class="center">Mapas clasificados por modo de juego</h3>
+        <div class="row">
+            <div class="col s12">
+                <ul class="tabs">
+                    <li class="tab col s3 title"><a class="active" href="#asedio">Asedio</a></li>
+                    <li class="tab col s3 title"><a href="#matanza">Matanza</a></li>
+                    <li class="tab col s3 title"><a href="#batalla">Team Death Match</a></li>
+                    <li class="tab col s3 title"><a href="#campo">Campo de Tiro</a></li>
+                </ul>
+            </div>
+            <div id="asedio" class="col s12">
+                <div class="row">
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/mapas/aserradero.png">
+                                <a href="info/mapas/aserradero.html" class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Aserradero<br><br></span>
+                                <p>Asedio</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/mapas/cantera-cuarteada.png">
+                                <a href="info/mapas/cantera-cuarteada.html" class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Cantera Cuarteada</span>
+                                <p>Asedio</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/mapas/cascada-jaguar.png">
+                                <a href="info/mapas/cascada-jaguar.html" class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Cascada del Jaguar</span>
+                                <p>Asedio</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/mapas/guardia-gelida.png">
+                                <a href="info/mapas/guardia-gelida.html" class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Guardia Gélida<br><br></span>
+                                <p>Asedio</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/mapas/isla-batracio.png">
+                                <a href="info/mapas/isla-batracio.html" class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Isla del Batracio<br><br></span>
+                                <p>Asedio</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/mapas/mercado-icticola.png">
+                                <a href="info/mapas/mercado-icticola.html" class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Mercado Ictícola<br><br></span>
+                                <p>Asedio</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/mapas/minas-gelidas.png">
+                                <a href="info/mapas/minas-gelidas.html" class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Minas Gélidas<br><br></span>
+                                <p>Asedio</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/mapas/pantano-radiante.png">
+                                <a href="info/mapas/pantano-radiante.html" class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Pantano Radiante</span>
+                                <p>Asedio</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/mapas/pico-ascencion.png">
+                                <a href="info/mapas/pico-ascencion.html" class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Pico de Ascención</span>
+                                <p>Asedio</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/mapas/playa-serpiente.png">
+                                <a href="info/mapas/playa-serpiente.html" class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Playa de la Serpiente</span>
+                                <p>Asedio</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/mapas/torreon-rocoso.png">
+                                <a href="info/mapas/torreon-rocoso.html" class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Torreón Rocoso<br><br></span>
+                                <p>Asedio</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="matanza" class="col s12">
+                <div class="row">
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/mapas/archivos-magistrado.png">
+                                <a href="info/mapas/archivos-magistrado.html" class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Archivos del Magistrado</span>
+                                <p>Matanza/TDM</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/mapas/ascenso-capataz.png">
+                                <a href="info/mapas/ascenso-capataz.html" class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Ascenso del Capataz</span>
+                                <p>Matanza/TDM</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/mapas/corte-primitiva.png">
+                                <a href="info/mapas/corte-primitiva.html" class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Corte Primitiva<br><br></span>
+                                <p>Matanza</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/mapas/pueblo-nevoso.png">
+                                <a href="info/mapas/pueblo-nevoso.html" class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Pueblo Nevoso<br><br></span>
+                                <p>Matanza</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="batalla" class="col s12">
+                <div class="row">
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/mapas/archivos-magistrado.png">
+                                <a href="info/mapas/archivos-magistrado.html" class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Archivos del Magistrado</span>
+                                <p>Matanza/TDM</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/mapas/ascenso-capataz.png">
+                                <a href="info/mapas/ascenso-capataz.html" class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Ascenso del Capataz</span>
+                                <p>Matanza/TDM</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/mapas/distrito-comercial.png">
+                                <a href="info/mapas/distrito-comercial.html" class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Distrito Comercial</span>
+                                <p>Team Death Match</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="campo" class="col s12">
+                <div class="row">
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/mapas/campo-tiro.png">
+                                <a href="info/mapas/campo-tiro.html" class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Campo de Tiro</span>
+                                <p>Entrenamiento</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="page-footer blue-grey darken-4">
+        <div class="container">
+            <div class="row">
+                <div class="col l12">
+                    <h5 class="white-text">Acerca del sitio</h5>
+                    <p class="grey-text text-lighten-4">Éste sitio web no recolecta ningún tipo de dato, solo es un espacio de consulta. Los datos presentados en él se publicarón únicamente con el fin de servir de apoyo, y no como una verdad absoluta.</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2018 Paladins Info
+                <a class="grey-text text-lighten-4 right" href="#!">Visita Paladins Latam</a>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.parallax').parallax();
+            $('.tabs').tabs();
+            $('.sidenav').sidenav();
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 100) {
+                    $('#btn-up').addClass('scale-in');
+                } else {
+                    $('#btn-up').removeClass('scale-in');
+                }
+            });
+            $('#btn-up').click(function() {
+                $('html, body').animate({
+                    scrollTop: 0
+                }, 600);
+                return false;
+            });
+        });
+    </script>
+</body>
+
+</html>
