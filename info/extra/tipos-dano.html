@@ -13,6 +13,9 @@
 <body>
 
     <style>
+        h3, h4 {
+            color: #1976d2!important;
+        }
         .tab a.active {
             background-color: rgba(0, 0, 0, 0)!important;
         }
@@ -36,13 +39,13 @@
                 <div class="container blue-grey darken-4 hide-on-med-and-down">
                     <div class="nav-content">
                         <ul class="tabs tabs-transparent">
-                            <li class="tab inicio"><a class="active" href="../../index.html" target="_self">Inicio</a></li>
+                            <li class="tab inicio"><a href="../../index.html" target="_self">Inicio</a></li>
                             <li class="tab campeones"><a href="../../campeones.html" target="_self">Campeones</a></li>
                             <li class="tab mapas"><a href="../../mapas.html" target="_self">Mapas</a></li>
                             <li class="tab roles"><a href="../../roles.html" target="_self">Roles</a></li>
                             <li class="tab modos"><a href="../../modos.html" target="_self">Modos</a></li>
                             <li class="tab items"><a href="../../items.html" target="_self">Ítems</a></li>
-                            <li class="tab extra"><a href="../../extra.html" target="_self">Extra</a></li>
+                            <li class="tab extra"><a class="active" href="../../extra.html" target="_self">Extra</a></li>
                             <li class="tab acerca"><a href="../../acerca.html" target="_self">Acerca de</a></li>
                         </ul>
                     </div>
@@ -50,19 +53,19 @@
             </nav>
         </div>
         <ul class="sidenav" id="mobile-demo">
-            <li class="tab inicio"><a class="active" href="../../index.html" target="_self">Inicio</a></li>
+            <li class="tab inicio"><a href="../../index.html" target="_self">Inicio</a></li>
             <li class="tab campeones"><a href="../../campeones.html" target="_self">Campeones</a></li>
             <li class="tab mapas"><a href="../../mapas.html" target="_self">Mapas</a></li>
             <li class="tab roles"><a href="../../roles.html" target="_self">Roles</a></li>
             <li class="tab modos"><a href="../../modos.html" target="_self">Modos</a></li>
             <li class="tab items"><a href="../../items.html" target="_self">Ítems</a></li>
-            <li class="tab extra"><a href="../../extra.html" target="_self">Extra</a></li>
+            <li class="tab extra"><a class="active" href="../../extra.html" target="_self">Extra</a></li>
             <li class="tab acerca"><a href="../../acerca.html" target="_self">Acerca de</a></li>
         </ul>
     </nav>
 
     <div class="fixed-action-btn">
-        <a class="btn-floating btn-large scale-transition scale-out blue darken-2" id="btn-up">
+        <a class="btn-floating btn-large scale-transition scale-out blue darken-2 tooltipped" data-position="top" data-tooltip="Ir arriba" id="btn-up">
             <i class="large material-icons">arrow_upward</i>
         </a>
     </div>
@@ -94,7 +97,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/bomb-king.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/bomb-king.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Bomb King</span>
@@ -106,7 +109,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/cassie.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/cassie.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Cassie</span>
@@ -118,7 +121,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/drogoz.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/drogoz.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Drogoz</span>
@@ -130,7 +133,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/kinessa.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/kinessa.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Kinessa</span>
@@ -142,7 +145,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/lian.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/lian.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Lian</span>
@@ -154,7 +157,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/sha-lin.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/sha-lin.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Sha Lin</span>
@@ -166,7 +169,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/strix.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/strix.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Strix</span>
@@ -178,7 +181,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/tyra.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/tyra.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Tyra</span>
@@ -190,7 +193,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/viktor.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/viktor.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Viktor</span>
@@ -202,7 +205,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/vivian.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/vivian.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Vivian</span>
@@ -214,7 +217,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/willo.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/willo.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Willo</span>
@@ -230,7 +233,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/androxus.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/androxus.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Androxus</span>
@@ -242,7 +245,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/buck.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/buck.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Buck</span>
@@ -254,7 +257,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/evie.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/evie.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Evie</span>
@@ -266,7 +269,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/lex.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/lex.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Lex</span>
@@ -278,7 +281,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/maeve.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/maeve.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Maeve</span>
@@ -290,7 +293,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/moji.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/moji.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Moji</span>
@@ -302,7 +305,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/skye.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/skye.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Skye</span>
@@ -314,7 +317,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/talus.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/talus.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Talus</span>
@@ -326,7 +329,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/zhin.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/zhin.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Zhin</span>
@@ -342,7 +345,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/grohk.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/grohk.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Grohk</span>
@@ -354,7 +357,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/grover.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/grover.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Grover</span>
@@ -366,7 +369,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/jenos.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/jenos.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Jenos</span>
@@ -378,7 +381,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/maldamba.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/maldamba.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Mal'Damba</span>
@@ -390,7 +393,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/pip.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/pip.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Pip</span>
@@ -402,7 +405,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/seris.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/seris.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Seris</span>
@@ -414,7 +417,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/ying.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/ying.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Ying</span>
@@ -430,7 +433,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/ash.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/ash.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Ash</span>
@@ -442,7 +445,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/barik.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/barik.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Barik</span>
@@ -454,7 +457,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/fernando.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/fernando.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Fernando</span>
@@ -466,7 +469,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/inara.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/inara.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Inara</span>
@@ -478,7 +481,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/khan.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/khan.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Khan</span>
@@ -490,7 +493,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/makoa.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/makoa.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Makoa</span>
@@ -502,7 +505,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/ruckus.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/ruckus.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Ruckus</span>
@@ -514,7 +517,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/terminus.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/terminus.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Terminus</span>
@@ -526,7 +529,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/torvald.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/torvald.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Torvald</span>
@@ -555,7 +558,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/bomb-king.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/bomb-king.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Bomb King</span>
@@ -567,7 +570,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/cassie.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/cassie.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Cassie</span>
@@ -579,7 +582,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/drogoz.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/drogoz.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Drogoz</span>
@@ -591,7 +594,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/kinessa.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/kinessa.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Kinessa</span>
@@ -603,7 +606,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/lian.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/lian.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Lian</span>
@@ -615,7 +618,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/sha-lin.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/sha-lin.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Sha Lin</span>
@@ -627,7 +630,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/strix.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/strix.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Strix</span>
@@ -639,7 +642,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/tyra.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/tyra.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Tyra</span>
@@ -651,7 +654,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/viktor.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/viktor.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Viktor</span>
@@ -663,7 +666,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/vivian.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/vivian.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Vivian</span>
@@ -675,7 +678,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/willo.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/willo.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Willo</span>
@@ -691,7 +694,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/androxus.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/androxus.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Androxus</span>
@@ -703,7 +706,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/buck.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/buck.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Buck</span>
@@ -715,7 +718,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/evie.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/evie.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Evie</span>
@@ -727,7 +730,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/lex.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/lex.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Lex</span>
@@ -739,7 +742,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/maeve.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/maeve.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Maeve</span>
@@ -751,7 +754,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/moji.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/moji.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Moji</span>
@@ -763,7 +766,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/skye.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/skye.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Skye</span>
@@ -775,7 +778,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/talus.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/talus.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Talus</span>
@@ -787,7 +790,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/zhin.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/zhin.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Zhin</span>
@@ -803,7 +806,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/grohk.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/grohk.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Grohk</span>
@@ -815,7 +818,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/grover.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/grover.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Grover</span>
@@ -827,7 +830,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/jenos.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/jenos.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Jenos</span>
@@ -839,7 +842,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/maldamba.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/maldamba.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Mal'Damba</span>
@@ -851,7 +854,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/pip.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/pip.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Pip</span>
@@ -863,7 +866,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/seris.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/seris.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Seris</span>
@@ -875,7 +878,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/ying.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/ying.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Ying</span>
@@ -891,7 +894,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/ash.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/ash.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Ash</span>
@@ -903,7 +906,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/barik.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/barik.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Barik</span>
@@ -915,7 +918,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/fernando.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/fernando.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Fernando</span>
@@ -927,7 +930,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/inara.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/inara.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Inara</span>
@@ -939,7 +942,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/khan.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/khan.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Khan</span>
@@ -951,7 +954,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/makoa.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/makoa.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Makoa</span>
@@ -963,7 +966,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/ruckus.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/ruckus.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Ruckus</span>
@@ -975,7 +978,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/terminus.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/terminus.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Terminus</span>
@@ -987,7 +990,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/torvald.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/torvald.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Torvald</span>
@@ -1016,7 +1019,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/bomb-king.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/bomb-king.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Bomb King</span>
@@ -1028,7 +1031,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/cassie.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/cassie.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Cassie</span>
@@ -1040,7 +1043,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/drogoz.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/drogoz.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Drogoz</span>
@@ -1052,7 +1055,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/kinessa.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/kinessa.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Kinessa</span>
@@ -1064,7 +1067,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/lian.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/lian.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Lian</span>
@@ -1076,7 +1079,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/sha-lin.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/sha-lin.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Sha Lin</span>
@@ -1088,7 +1091,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/strix.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/strix.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Strix</span>
@@ -1100,7 +1103,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/tyra.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/tyra.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Tyra</span>
@@ -1112,7 +1115,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/viktor.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/viktor.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Viktor</span>
@@ -1124,7 +1127,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/vivian.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/vivian.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Vivian</span>
@@ -1136,7 +1139,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/willo.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/willo.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Willo</span>
@@ -1152,7 +1155,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/androxus.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/androxus.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Androxus</span>
@@ -1164,7 +1167,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/buck.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/buck.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Buck</span>
@@ -1176,7 +1179,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/evie.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/evie.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Evie</span>
@@ -1188,7 +1191,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/lex.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/lex.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Lex</span>
@@ -1200,7 +1203,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/maeve.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/maeve.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Maeve</span>
@@ -1212,7 +1215,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/moji.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/moji.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Moji</span>
@@ -1224,7 +1227,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/skye.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/skye.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Skye</span>
@@ -1236,7 +1239,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/talus.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/talus.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Talus</span>
@@ -1248,7 +1251,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/zhin.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/zhin.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Zhin</span>
@@ -1264,7 +1267,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/grohk.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/grohk.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Grohk</span>
@@ -1276,7 +1279,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/grover.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/grover.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Grover</span>
@@ -1288,7 +1291,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/jenos.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/jenos.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Jenos</span>
@@ -1300,7 +1303,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/maldamba.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/maldamba.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Mal'Damba</span>
@@ -1312,7 +1315,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/pip.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/pip.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Pip</span>
@@ -1324,7 +1327,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/seris.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/seris.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Seris</span>
@@ -1336,7 +1339,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/ying.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/ying.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Ying</span>
@@ -1352,7 +1355,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/ash.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/ash.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Ash</span>
@@ -1364,7 +1367,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/barik.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/barik.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Barik</span>
@@ -1376,7 +1379,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/fernando.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/fernando.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Fernando</span>
@@ -1388,7 +1391,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/inara.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/inara.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Inara</span>
@@ -1400,7 +1403,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/khan.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/khan.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Khan</span>
@@ -1412,7 +1415,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/makoa.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/makoa.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Makoa</span>
@@ -1424,7 +1427,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/ruckus.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/ruckus.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Ruckus</span>
@@ -1436,7 +1439,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/terminus.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/terminus.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Terminus</span>
@@ -1448,7 +1451,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="../../img/campeones/torvald.jpg">
-                                <a class="btn-floating halfway-fab waves-effect waves-light blue darken-2"><i class="material-icons">exit_to_app</i></a>
+                                <a href="../../info/campeones/torvald.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Torvald</span>
@@ -1485,11 +1488,12 @@
             $('.parallax').parallax();
             $('.tabs').tabs();
             $('.sidenav').sidenav();
+            $('.tooltipped').tooltip();
             $(window).scroll(function() {
                 if ($(this).scrollTop() > 100) {
-                    $('#btn-up').fadeIn();
+                    $('#btn-up').addClass('scale-in');
                 } else {
-                    $('#btn-up').fadeOut();
+                    $('#btn-up').removeClass('scale-in');
                 }
             });
             $('#btn-up').click(function() {
@@ -1497,6 +1501,12 @@
                     scrollTop: 0
                 }, 600);
                 return false;
+            });
+            $('#btn-up').hover(function() {
+                $('#btn-up').toggleClass('pulse');
+            });
+            $('.btn-info').hover(function() {
+                $(this).toggleClass('pulse');
             });
         });
     </script>

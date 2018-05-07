@@ -13,6 +13,9 @@
 <body>
 
     <style>
+        h3, h4 {
+            color: #1976d2!important;
+        }
         .tab a.active {
             background-color: rgba(0, 0, 0, 0)!important;
         }
@@ -36,11 +39,11 @@
                 <div class="container blue-grey darken-4 hide-on-med-and-down">
                     <div class="nav-content">
                         <ul class="tabs tabs-transparent">
-                            <li class="tab inicio"><a class="active" href="../../index.html" target="_self">Inicio</a></li>
+                            <li class="tab inicio"><a href="../../index.html" target="_self">Inicio</a></li>
                             <li class="tab campeones"><a href="../../campeones.html" target="_self">Campeones</a></li>
                             <li class="tab mapas"><a href="../../mapas.html" target="_self">Mapas</a></li>
                             <li class="tab roles"><a href="../../roles.html" target="_self">Roles</a></li>
-                            <li class="tab modos"><a href="../../modos.html" target="_self">Modos</a></li>
+                            <li class="tab modos"><a class="active" href="../../modos.html" target="_self">Modos</a></li>
                             <li class="tab items"><a href="../../items.html" target="_self">Ítems</a></li>
                             <li class="tab extra"><a href="../../extra.html" target="_self">Extra</a></li>
                             <li class="tab acerca"><a href="../../acerca.html" target="_self">Acerca de</a></li>
@@ -50,11 +53,11 @@
             </nav>
         </div>
         <ul class="sidenav" id="mobile-demo">
-            <li class="tab inicio"><a class="active" href="../../index.html" target="_self">Inicio</a></li>
+            <li class="tab inicio"><a href="../../index.html" target="_self">Inicio</a></li>
             <li class="tab campeones"><a href="../../campeones.html" target="_self">Campeones</a></li>
             <li class="tab mapas"><a href="../../mapas.html" target="_self">Mapas</a></li>
             <li class="tab roles"><a href="../../roles.html" target="_self">Roles</a></li>
-            <li class="tab modos"><a href="../../modos.html" target="_self">Modos</a></li>
+            <li class="tab modos"><a class="active" href="../../modos.html" target="_self">Modos</a></li>
             <li class="tab items"><a href="../../items.html" target="_self">Ítems</a></li>
             <li class="tab extra"><a href="../../extra.html" target="_self">Extra</a></li>
             <li class="tab acerca"><a href="../../acerca.html" target="_self">Acerca de</a></li>
@@ -62,7 +65,7 @@
     </nav>
 
     <div class="fixed-action-btn">
-        <a class="btn-floating btn-large scale-transition scale-out blue darken-2" id="btn-up">
+        <a class="btn-floating btn-large scale-transition scale-out blue darken-2 tooltipped" data-position="top" data-tooltip="Ir arriba" id="btn-up">
             <i class="large material-icons">arrow_upward</i>
         </a>
     </div>
@@ -107,6 +110,7 @@
             $('.parallax').parallax();
             $('.tabs').tabs();
             $('.sidenav').sidenav();
+            $('.tooltipped').tooltip();
             $(window).scroll(function() {
                 if ($(this).scrollTop() > 100) {
                     $('#btn-up').addClass('scale-in');
@@ -119,6 +123,12 @@
                     scrollTop: 0
                 }, 600);
                 return false;
+            });
+            $('#btn-up').hover(function() {
+                $('#btn-up').toggleClass('pulse');
+            });
+            $('.btn-info').hover(function() {
+                $(this).toggleClass('pulse');
             });
         });
     </script>

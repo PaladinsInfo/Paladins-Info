@@ -13,6 +13,9 @@
 <body>
 
     <style>
+        h3, h4 {
+            color: #1976d2!important;
+        }
         .tab a.active {
             background-color: rgba(0, 0, 0, 0)!important;
         }
@@ -62,7 +65,7 @@
     </nav>
 
     <div class="fixed-action-btn">
-        <a class="btn-floating btn-large scale-transition scale-out blue darken-2" id="btn-up">
+        <a class="btn-floating btn-large scale-transition scale-out blue darken-2 tooltipped" data-position="top" data-tooltip="Ir arriba" id="btn-up">
             <i class="large material-icons">arrow_upward</i>
         </a>
     </div>
@@ -110,6 +113,7 @@
             $('.parallax').parallax();
             $('.tabs').tabs();
             $('.sidenav').sidenav();
+            $('.tooltipped').tooltip();
             $(window).scroll(function() {
                 if ($(this).scrollTop() > 100) {
                     $('#btn-up').addClass('scale-in');
@@ -122,6 +126,12 @@
                     scrollTop: 0
                 }, 600);
                 return false;
+            });
+            $('#btn-up').hover(function() {
+                $('#btn-up').toggleClass('pulse');
+            });
+            $('.btn-info').hover(function() {
+                $(this).toggleClass('pulse');
             });
         });
     </script>
