@@ -13,13 +13,16 @@
 <body>
 
     <style>
-        h3, h4 {
+        h3,
+        h4 {
             color: #1976d2!important;
         }
+        
         .info-text {
             font-size: 1.3em;
             line-height: 2em;
         }
+        
         .tab a.active {
             background-color: rgba(0, 0, 0, 0)!important;
         }
@@ -113,6 +116,7 @@
                                 <li class="collection-item"><strong>Vida: </strong>4,500 PS</li>
                                 <li class="collection-item"><strong>Velocidad: </strong>350 Unidades</li>
                                 <li class="collection-item"><strong>Dificultad: </strong>Difícil</li>
+                                <li class="collection-item"><strong>Índice de Victoria: </strong>40.9% a 59.3%</li>
                                 <li class="collection-item"><strong>Daño: </strong><a href="">Directo / Área (Poder definitivo)</a></li>
                                 <li class="collection-item"><strong>Control de Masas: </strong><a href="">Silenciar</a></li>
                                 <li class="collection-item"><strong>Efecto de Reducción: </strong><a href="">Ningúno</a></li>
@@ -299,78 +303,128 @@
             </div>
         </div><br>
         <h4>¿Qué ítems se deben comprar?</h4>
+        <p class="info-text">Solo puedes comprar un ítem por categoría, por lo tanto, los ítems sugeridos dependen de cada situación. La importancia de la categoría está ordenada de la más importante a la menos importante, de izquierda a derecha.</p>
         <div class="row">
-            <div class="col s12 m6 l3">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="../../img/items/aguante.png">
-                        <a class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+            <div class="col s12">
+                <ul class="tabs">
+                    <li class="tab col s3 title"><a class="active" href="#curacion">Curación</a></li>
+                    <li class="tab col s3 title"><a href="#defensa">Defensa</a></li>
+                    <li class="tab col s3 title"><a href="#ofensiva">Ofensiva</a></li>
+                    <li class="tab col s3 title"><a href="#utilidad">Utilidad</a></li>
+                </ul>
+            </div>
+            <div id="defensa" class="col s12">
+                <div class="row">
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../../img/items/aguante.png">
+                                <a href="info/items/aguante.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Aguante<br><br></span>
+                                <p>Defensa</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-content">
-                        <span class="card-title">Aguante<br></span>
-                        <p>Defensa</p>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../../img/items/ancora.png">
+                                <a href="info/items/ancora.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Áncora<br><br></span>
+                                <p>Defensa</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../../img/items/anti-golpazos.png">
+                                <a href="info/items/anti-golpazos.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Protección Anti Golpazos</span>
+                                <p>Defensa</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col s12 m6 l3">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="../../img/items/ancora.png">
-                        <a class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+            <div id="utilidad" class="col s12">
+                <div class="row">
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../../img/items/aumento-moral.png">
+                                <a href="info/items/aumento-moral.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Aumento de la Moral</span>
+                                <p>Utilidad</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-content">
-                        <span class="card-title">Áncora<br></span>
-                        <p>Defensa</p>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../../img/items/cronos.png">
+                                <a href="info/items/cronos.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Cronos<br><br></span>
+                                <p>Utilidad</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col s12 m6 l3">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="../../img/items/iluminar.png">
-                        <a class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title">Iluminar<br></span>
-                        <p>Defensa</p>
+            <div id="curacion" class="col s12">
+                <div class="row">
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../../img/items/rejuvenecer.png">
+                                <a href="info/items/rejuvenecer.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Rejuvenecer<br><br></span>
+                                <p>Curación</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col s12 m6 l3">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="../../img/items/anti-golpazos.png">
-                        <a class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title">Protección Anti Golpazos</span>
-                        <p>Defensa</p>
+            <div id="ofensiva" class="col s12">
+                <div class="row">
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../../img/items/cauterizar.png">
+                                <a href="info/items/cauterizar.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Cauterizar<br><br></span>
+                                <p>Ofensiva</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div><br>
-        <h4>¿Qué ítems lo contrarrestan?</h4>
+        <h4>¿Qué ítems la / lo contrarrestan?</h4>
+        <p class="info-text">La relevancia de los ítems está ordenada del más significativo a la menos significativo, de izquierda a derecha.</p>
         <div class="row">
             <div class="col s12 m6 l3">
                 <div class="card">
                     <div class="card-image">
-                        <img src="../../img/items/aguante.png">
-                        <a class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title">Aguante<br></span>
-                        <p>Defensa</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m6 l3">
-                <div class="card">
-                    <div class="card-image">
                         <img src="../../img/items/ancora.png">
-                        <a class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                        <a href="info/items/ancora.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                     </div>
                     <div class="card-content">
-                        <span class="card-title">Áncora<br></span>
+                        <span class="card-title">Áncora<br><br></span>
                         <p>Defensa</p>
                     </div>
                 </div>
@@ -378,11 +432,11 @@
             <div class="col s12 m6 l3">
                 <div class="card">
                     <div class="card-image">
-                        <img src="../../img/items/iluminar.png">
-                        <a class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                        <img src="../../img/items/aguante.png">
+                        <a href="info/items/aguante.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                     </div>
                     <div class="card-content">
-                        <span class="card-title">Iluminar<br></span>
+                        <span class="card-title">Aguante<br><br></span>
                         <p>Defensa</p>
                     </div>
                 </div>
@@ -390,12 +444,12 @@
             <div class="col s12 m6 l3">
                 <div class="card">
                     <div class="card-image">
-                        <img src="../../img/items/anti-golpazos.png">
-                        <a class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                        <img src="../../img/items/derruidor.png">
+                        <a href="info/items/derruidor.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                     </div>
                     <div class="card-content">
-                        <span class="card-title">Protección Anti Golpazos</span>
-                        <p>Defensa</p>
+                        <span class="card-title">Derruidor<br><br></span>
+                        <p>Ofensiva</p>
                     </div>
                 </div>
             </div>
@@ -405,99 +459,99 @@
             <div class="col s12 m6 l3">
                 <div class="card">
                     <div class="card-image">
-                        <img src="../../img/campeones/grohk.jpg">
-                        <a class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                        <img src="../../img/campeones/androxus.jpg">
+                        <a href="../../info/campeones/androxus.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                     </div>
                     <div class="card-content">
-                        <span class="card-title">Grohk</span>
-                        <p>El Orc del Rayo<br></p>
+                        <span class="card-title">Androxus</span>
+                        <p>El Asesino de Dioses<br><br></p>
                     </div>
                 </div>
             </div>
             <div class="col s12 m6 l3">
                 <div class="card">
                     <div class="card-image">
-                        <img src="../../img/campeones/grover.jpg">
-                        <a class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                        <img src="../../img/campeones/lex.jpg">
+                        <a href="../../info/campeones/lex.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                     </div>
                     <div class="card-content">
-                        <span class="card-title">Grover</span>
-                        <p>El Silvestre<br></p>
+                        <span class="card-title">Lex</span>
+                        <p>La Mano de la Justicia<br><br></p>
                     </div>
                 </div>
             </div>
             <div class="col s12 m6 l3">
                 <div class="card">
                     <div class="card-image">
-                        <img src="../../img/campeones/jenos.jpg">
-                        <a class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                        <img src="../../img/campeones/maeve.jpg">
+                        <a href="../../info/campeones/maeve.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                     </div>
                     <div class="card-content">
-                        <span class="card-title">Jenos</span>
-                        <p>El Ascendido<br></p>
+                        <span class="card-title">Maeve</span>
+                        <p>De Cuchillas<br><br></p>
                     </div>
                 </div>
             </div>
             <div class="col s12 m6 l3">
                 <div class="card">
                     <div class="card-image">
-                        <img src="../../img/campeones/maldamba.jpg">
-                        <a class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                        <img src="../../img/campeones/viktor.jpg">
+                        <a href="../../info/campeones/viktor.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                     </div>
                     <div class="card-content">
-                        <span class="card-title">Mal'Damba</span>
-                        <p>El Elegido de Wekono<br></p>
+                        <span class="card-title">Viktor</span>
+                        <p>El Lobo Solitario<br><br></p>
                     </div>
                 </div>
             </div>
         </div><br>
-        <h4>¿Qué campeones lo contrarrestan?</h4>
+        <h4>¿Qué campeones la / lo contrarrestan?</h4>
         <div class="row">
             <div class="col s12 m6 l3">
                 <div class="card">
                     <div class="card-image">
-                        <img src="../../img/campeones/grohk.jpg">
-                        <a class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                        <img src="../../img/campeones/bomb-king.jpg">
+                        <a href="../../info/campeones/bomb-king.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                     </div>
                     <div class="card-content">
-                        <span class="card-title">Grohk</span>
-                        <p>El Orc del Rayo<br></p>
+                        <span class="card-title">Bomb King</span>
+                        <p>Su Majestad<br><br></p>
                     </div>
                 </div>
             </div>
             <div class="col s12 m6 l3">
                 <div class="card">
                     <div class="card-image">
-                        <img src="../../img/campeones/grover.jpg">
-                        <a class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                        <img src="../../img/campeones/drogoz.jpg">
+                        <a href="../../info/campeones/drogoz.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                     </div>
                     <div class="card-content">
-                        <span class="card-title">Grover</span>
-                        <p>El Silvestre<br></p>
+                        <span class="card-title">Drogoz</span>
+                        <p>El Codicioso<br><br></p>
                     </div>
                 </div>
             </div>
             <div class="col s12 m6 l3">
                 <div class="card">
                     <div class="card-image">
-                        <img src="../../img/campeones/jenos.jpg">
-                        <a class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                        <img src="../../img/campeones/pip.jpg">
+                        <a href="../../info/campeones/pip.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                     </div>
                     <div class="card-content">
-                        <span class="card-title">Jenos</span>
-                        <p>El Ascendido<br></p>
+                        <span class="card-title">Pip</span>
+                        <p>El Alquimísta Pícaro<br><br></p>
                     </div>
                 </div>
             </div>
             <div class="col s12 m6 l3">
                 <div class="card">
                     <div class="card-image">
-                        <img src="../../img/campeones/maldamba.jpg">
-                        <a class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                        <img src="../../img/campeones/inara.jpg">
+                        <a href="../../info/campeones/inara.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
                     </div>
                     <div class="card-content">
-                        <span class="card-title">Mal'Damba</span>
-                        <p>El Elegido de Wekono<br></p>
+                        <span class="card-title">Inara</span>
+                        <p>La Guardiana de Piedra<br><br></p>
                     </div>
                 </div>
             </div>
