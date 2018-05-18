@@ -31,7 +31,9 @@
         .tabs .indicator {
             background-color: #1976d2!important;
         }
-
+        .hability {
+            padding-left: 25px!important;
+        }
     </style>
 
     <nav class="nav-extended">
@@ -75,62 +77,355 @@
         </a>
     </div>
 
-    <div class="parallax-container">
-        <div class="parallax"><img src="../../img/mapas/minas-gelidas.png"></div>
-    </div>
+    <img class="responsive-img" src="../../img/mapas/minas-gelidas.jpg">
 
     <div class="container">
         <h3 class="center">Minas Gélidas</h3>
         <h5 class="center">Asedio (Casual, Competitivo, Entrenamiento)<br><br></h5>
-        <h4>Descripción</h4>
-        <p class="info-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore consequuntur quia perspiciatis aspernatur, obcaecati minus vitae repudiandae necessitatibus laudantium natus at accusamus. Id omnis suscipit fuga ducimus. Obcaecati, nemo doloremque.</p><br><br>
+        <h4>Datos generales</h4>
+        <div class="row">
+            <div class="col s12">
+                <div class="card horizontal hability">
+                    <div class="card-image valign-wrapper">
+                        <img height="110px" src="../../img/modos/asedio.png">
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <ul class="collection">
+                                <li class="collection-item">
+                                    <h5>Minas Gélidas</h5>
+                                </li>
+                                <li class="collection-item"><strong>Modo de juego: </strong><a href="">Asedio</a></li>
+                                <li class="collection-item"><strong>Disponible para: </strong><a href="">Competitivo</a>, <a href="">Casual</a>, <a href="">Entrenamiento</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><br>
         <h4>Campeones con buen desempeño en éste mapa</h4>
         <div class="row">
-            <div class="col s12 m6 l3">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="../../img/campeones/grohk.jpg">
-                        <a class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+            <div class="col s12">
+                <ul class="tabs">
+                    <li class="tab col s3 title"><a class="active " href="#dano">Daño</a></li>
+                    <li class="tab col s3 title"><a href="#flanco">Flanco</a></li>
+                    <li class="tab col s3 title"><a href="#soporte">Soporte</a></li>
+                    <li class="tab col s3 title"><a href="#tanque">Tanque</a></li>
+                </ul>
+            </div>
+            <div id="dano" class="col s12">
+                <div class="row">
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../../img/campeones/bomb-king.jpg">
+                                <a href="../../info/campeones/bomb-king.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Bomb King</span>
+                                <p>Su Majestad<br><br></p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-content">
-                        <span class="card-title">Grohk</span>
-                        <p>El Orc del Rayo<br><br></p>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../../img/campeones/cassie.jpg">
+                                <a href="../../info/campeones/cassie.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Cassie</span>
+                                <p>La Hija del Cazador<br><br></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../../img/campeones/lian.jpg">
+                                <a href="../../info/campeones/lian.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Lian</span>
+                                <p>Descendiente de la Casa Aico</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../../img/campeones/sha-lin.jpg">
+                                <a href="../../info/campeones/sha-lin.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Sha Lin</span>
+                                <p>El Viento del Desierto<br><br></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../../img/campeones/tyra.jpg">
+                                <a href="../../info/campeones/tyra.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Tyra</span>
+                                <p>La Indómita<br><br></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../../img/campeones/viktor.jpg">
+                                <a href="../../info/campeones/viktor.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Viktor</span>
+                                <p>El Lobo Solitario<br><br></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../../img/campeones/willo.jpg">
+                                <a href="../../info/campeones/willo.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Willo</span>
+                                <p>De las Cortes de Verano<br><br></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col s12 m6 l3">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="../../img/campeones/grover.jpg">
-                        <a class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+            <div id="flanco" class="col s12">
+                <div class="row">
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../../img/campeones/androxus.jpg">
+                                <a href="../../info/campeones/androxus.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Androxus</span>
+                                <p>El Asesino de Dioses<br><br></p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-content">
-                        <span class="card-title">Grover</span>
-                        <p>El Silvestre<br><br></p>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../../img/campeones/buck.jpg">
+                                <a href="../../info/campeones/buck.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Buck</span>
+                                <p>El Inflexible<br><br></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../../img/campeones/lex.jpg">
+                                <a href="../../info/campeones/lex.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Lex</span>
+                                <p>La Mano de la Justicia<br><br></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../../img/campeones/maeve.jpg">
+                                <a href="../../info/campeones/maeve.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Maeve</span>
+                                <p>De Cuchillas<br><br></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../../img/campeones/moji.jpg">
+                                <a href="../../info/campeones/moji.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Moji</span>
+                                <p>Y Amigos<br><br></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../../img/campeones/talus.jpg">
+                                <a href="../../info/campeones/talus.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Talus</span>
+                                <p>Del Ska'Drin<br><br></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../../img/campeones/zhin.jpg">
+                                <a href="../../info/campeones/zhin.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Zhin</span>
+                                <p>El Tirano<br><br></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col s12 m6 l3">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="../../img/campeones/jenos.jpg">
-                        <a class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+            <div id="soporte" class="col s12">
+                <div class="row">
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../../img/campeones/grover.jpg">
+                                <a href="../../info/campeones/grover.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Grover</span>
+                                <p>El Silvestre<br><br></p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-content">
-                        <span class="card-title">Jenos</span>
-                        <p>El Ascendido<br><br></p>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../../img/campeones/jenos.jpg">
+                                <a href="../../info/campeones/jenos.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Jenos</span>
+                                <p>El Ascendido<br><br></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../../img/campeones/maldamba.jpg">
+                                <a href="../../info/campeones/maldamba.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Mal'Damba</span>
+                                <p>El Elegido de Wekono<br><br></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../../img/campeones/pip.jpg">
+                                <a href="../../info/campeones/pip.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Pip</span>
+                                <p>El Alquimísta Pícaro<br><br></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../../img/campeones/seris.jpg">
+                                <a href="../../info/campeones/seris.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Seris</span>
+                                <p>Oráculo del Abismo<br><br></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col s12 m6 l3">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="../../img/campeones/maldamba.jpg">
-                        <a class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+            <div id="tanque" class="col s12">
+                <div class="row">
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../../img/campeones/ash.jpg">
+                                <a href="../../info/campeones/ash.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Ash</span>
+                                <p>La Máquina de Guerra<br><br></p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-content">
-                        <span class="card-title">Mal'Damba</span>
-                        <p>El Elegido de Wekono<br><br></p>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../../img/campeones/fernando.jpg">
+                                <a href="../../info/campeones/fernando.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Fernando</span>
+                                <p>El Caballero Autoproclamado</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../../img/campeones/inara.jpg">
+                                <a href="../../info/campeones/inara.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Inara</span>
+                                <p>La Guardiana de Piedra<br><br></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../../img/campeones/makoa.jpg">
+                                <a href="../../info/campeones/makoa.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Makoa</span>
+                                <p>El Prehistorico<br><br></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../../img/campeones/ruckus.jpg">
+                                <a href="../../info/campeones/ruckus.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Ruckus</span>
+                                <p>El Peor de los Amigos<br><br></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../../img/campeones/terminus.jpg">
+                                <a href="../../info/campeones/terminus.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Terminus</span>
+                                <p>El Deshonrado<br><br></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
