@@ -13,13 +13,16 @@
 <body>
 
     <style>
-        h3, h4 {
+        h3,
+        h4 {
             color: #1976d2!important;
         }
+        
         .info-text {
             font-size: 1.3em;
             line-height: 2em;
         }
+        
         .tab a.active {
             background-color: rgba(0, 0, 0, 0)!important;
         }
@@ -78,41 +81,77 @@
 
     <div class="container">
         <h3 class="center">Modos de juego</h3>
-        <div class="col s12">
-            <div class="row">
-                <div class="col s12 m12 l4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="img/modos/asedio.png">
-                            <a href="info/modos/asedio.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+        <div class="row">
+            <div class="col s12">
+                <ul class="tabs">
+                    <li class="tab col s6 title"><a class="active " href="#modos">Modos</a></li>
+                    <li class="tab col s6 title"><a href="#extra">Extra</a></li>
+                </ul>
+            </div>
+            <div id="modos" class="col s12">
+                <div class="row">
+                    <div class="col s12 m12 l4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/modos/asedio.png">
+                                <a href="info/modos/asedio.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Asedio</span>
+                                <p>Casual/ Competitivo / Entrenamiento</p>
+                            </div>
                         </div>
-                        <div class="card-content">
-                            <span class="card-title">Asedio</span>
-                            <p>Casual/ Competitivo / Entrenamiento</p>
+                    </div>
+                    <div class="col s12 m12 l4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/modos/matanza.png">
+                                <a href="info/modos/matanza.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Matanza</span>
+                                <p>Casual / Entrenamiento<br><br></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m12 l4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/modos/team-death-match.png">
+                                <a href="info/modos/team-death-match.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Team Death Match</span>
+                                <p>Casual / Entrenamiento<br><br></p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col s12 m12 l4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="img/modos/matanza.png">
-                            <a href="info/modos/matanza.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title">Matanza</span>
-                            <p>Casual / Entrenamiento</p>
+            </div>
+            <div id="extra" class="col s12">
+                <div class="row">
+                    <div class="col s12 m12 l4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/modos/competitivo.png">
+                                <a href="info/modos/competitivo.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Competitivo</span>
+                                <p>Modo de juego<br><br></p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col s12 m12 l4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="img/modos/team-death-match.png">
-                            <a href="info/modos/team-death-match.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title">Team Death Match</span>
-                            <p>Casual / Entrenamiento</p>
+                    <div class="col s12 m12 l4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/modos/campo-tiro.png">
+                                <a href="info/modos/entrenamiento.html" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Entrenamiento</span>
+                                <p>Modo de juego<br><br></p>
+                            </div>
                         </div>
                     </div>
                 </div>
