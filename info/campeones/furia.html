@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="../../css/materialize.min.css" media="screen,projection" />
+    <link rel="icon" type="image/png" href="../../img/icono.png" />
+    <meta charset="UTF-8">
+    <title>Paladins Info - Furia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+
+    <style>
+        h3,
+        h4 {
+            color: #1976d2!important;
+        }
+        
+        .info-text {
+            font-size: 1.3em;
+            line-height: 2em;
+        }
+        
+        .tab a.active {
+            background-color: rgba(0, 0, 0, 0)!important;
+        }
+        
+        .title a {
+            color: #1976d2!important;
+        }
+        
+        .tabs .indicator {
+            background-color: #1976d2!important;
+        }
+        
+        .hability {
+            padding-left: 25px!important;
+        }
+        
+        .talent {
+            padding-left: 10px!important;
+        }
+    </style>
+
+    <nav class="nav-extended">
+        <div class="navbar-fixed">
+            <nav class="nav-extended blue-grey darken-4">
+                <div class="nav-wrapper blue-grey darken-4">
+                    <a href="#" class="brand-logo center"><img class="responsive-img" style="width: 100%" src="../../img/logo.png"></a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                </div>
+                <div class="container blue-grey darken-4 hide-on-med-and-down">
+                    <div class="nav-content">
+                        <ul class="tabs tabs-transparent">
+                            <li class="tab inicio"><a href="../../index" target="_self">Inicio</a></li>
+                            <li class="tab campeones"><a class="active" href="../../campeones" target="_self">Campeones</a></li>
+                            <li class="tab mapas"><a href="../../mapas" target="_self">Mapas</a></li>
+                            <li class="tab roles"><a href="../../roles" target="_self">Roles</a></li>
+                            <li class="tab modos"><a href="../../modos" target="_self">Modos</a></li>
+                            <li class="tab items"><a href="../../items" target="_self">Ítems</a></li>
+                            <li class="tab extra"><a href="../../extra" target="_self">Extra</a></li>
+                            <li class="tab acerca"><a href="../../acerca" target="_self">Acerca de</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <ul class="sidenav" id="mobile-demo">
+            <li class="tab inicio"><a href="../../index" target="_self">Inicio</a></li>
+            <li class="tab campeones"><a class="active" href="../../campeones" target="_self">Campeones</a></li>
+            <li class="tab mapas"><a href="../../mapas" target="_self">Mapas</a></li>
+            <li class="tab roles"><a href="../../roles" target="_self">Roles</a></li>
+            <li class="tab modos"><a href="../../modos" target="_self">Modos</a></li>
+            <li class="tab items"><a href="../../items" target="_self">Ítems</a></li>
+            <li class="tab extra"><a href="../../extra" target="_self">Extra</a></li>
+            <li class="tab acerca"><a href="../../acerca" target="_self">Acerca de</a></li>
+        </ul>
+    </nav>
+
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large scale-transition scale-out blue darken-2 tooltipped" data-position="top" data-tooltip="Ir arriba" id="btn-up">
+            <i class="large material-icons">arrow_upward</i>
+        </a>
+    </div>
+
+    <img class="responsive-img" style="width: 100%" src="../../img/campeones/furia/furia1.jpg">
+
+    <div class="container">
+        <h3 class="center">Furia</h3>
+        <h5 class="center">Ángel de la Venganza<br></h5>
+        <h4>Historia</h4>
+        <p class="info-text">Abby le oró a la Pira Eterna por la fuerza para batallar en contra del Abismo, para poder vengarse de lo que le hicieron daño a su hermana. La Pira escucho sus oraciones. Abby fue salvada del Abismo y transformada en Furia: un ángel de venganza llena de fuego encarnado. Ahora las hermanas están opuestas, recipientes de poderes de otro mundo, mucho más allá que simples mortales.</p>
+        <img class="responsive-img" style="width: 100%" src="../../img/campeones/furia/furia2.jpg"><br>
+        <h4>Datos generales</h4>
+        <div class="row">
+            <div class="col s12">
+                <div class="card horizontal hability">
+                    <div class="card-image valign-wrapper">
+                        <img height="110px" src="../../img/campeones/furia/furia.jpg">
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <ul class="collection">
+                                <li class="collection-item">
+                                    <h5>Furia</h5>
+                                </li>
+                                <li class="collection-item"><strong>Título: </strong>Ángel de la Venganza</li>
+                                <li class="collection-item"><strong>Rol: </strong><a href="../roles/soporte.html">Soporte</a></li>
+                                <li class="collection-item"><strong>Vida: </strong>2,200 PS</li>
+                                <li class="collection-item"><strong>Velocidad: </strong>360 Unidades</li>
+                                <li class="collection-item"><strong>Dificultad: </strong>Intermedio</li>
+                                <li class="collection-item"><strong>Índice de Victoria: </strong>0.0% a 0.0%</li>
+                                <li class="collection-item"><strong>Daño: </strong><a href="../extra/tipos-dano">Directo / Área</a></li>
+                                <li class="collection-item"><strong>Control de Masas: </strong><a href="../extra/tipos-control">Aturdir</a></li>
+                                <li class="collection-item"><strong>Efecto de Reducción: </strong><a href="../extra/tipos-control">Ningúno</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><br>
+        <h4>Habilidades del campeón</h4>
+        <div class="row">
+            <div class="col s12">
+                <div class="card horizontal hability">
+                    <div class="card-image valign-wrapper">
+                        <img src="../../img/campeones/furia/h-c1.png">
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <ul class="collection">
+                                <li class="collection-item">
+                                    <h5>Espada Pirotécnica</h5>
+                                </li>
+                                <li class="collection-item"><strong>Tipo: </strong>Disparo de daño directo</li>
+                                <li class="collection-item"><strong>Cadencia: </strong>? - 0.5 segundos</li>
+                                <li class="collection-item"><strong>Descripción: </strong>Una Espada Pirotécnica que inflige 330 de daño cada 0.5 segundos. Efectiva hasta media distancia. Cuando curas a tus aliados acumula tus recursos de Ira y aumenta tu velocidad de ataque. La Ira se descompone con el tiempo.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12">
+                <div class="card horizontal hability">
+                    <div class="card-image valign-wrapper">
+                        <img src="../../img/campeones/furia/h-c2.png">
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <ul class="collection">
+                                <li class="collection-item">
+                                    <h5>Encendedor de Almas</h5>
+                                </li>
+                                <li class="collection-item"><strong>Tipo: </strong>Habilidad de utilidad</li>
+                                <li class="collection-item"><strong>Enfriamiento: </strong>4 segundos</li>
+                                <li class="collection-item"><strong>Descripción: </strong>Cura al aliado que apuntes 1,000 de vida instantáneamente, además de 500 adicionales durante 2 segundos.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12">
+                <div class="card horizontal hability">
+                    <div class="card-image valign-wrapper">
+                        <img src="../../img/campeones/furia/h-q.png">
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <ul class="collection">
+                                <li class="collection-item">
+                                    <h5>Golpe Pirotécnico</h5>
+                                </li>
+                                <li class="collection-item"><strong>Tipo: </strong>Habilidad de utilidad</li>
+                                <li class="collection-item"><strong>Enfriamiento: </strong>12 segundos</li>
+                                <li class="collection-item"><strong>Descripción: </strong>Invoca un rayo de luz ardiente que viaja hacía adelante. Los enemigos alcanzados por el rayo de luz son aturdidos durante 1 segundo y reciben 400 de daño instantáneamente con 20 de daño adicional cada 0.05 segundos mientras permanezcan dentro del rayo.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12">
+                <div class="card horizontal hability">
+                    <div class="card-image valign-wrapper">
+                        <img src="../../img/campeones/furia/h-f.png">
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <ul class="collection">
+                                <li class="collection-item">
+                                    <h5>Alas de Ira</h5>
+                                </li>
+                                <li class="collection-item"><strong>Tipo: </strong>Habilidad de movimiento</li>
+                                <li class="collection-item"><strong>Enfriamiento: </strong>10 segundos</li>
+                                <li class="collection-item"><strong>Descripción: </strong>Impúlsate hacía atrás y lanza 3 bolas de fuego que infligen 200 de daño cada una.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12">
+                <div class="card horizontal hability">
+                    <div class="card-image valign-wrapper">
+                        <img src="../../img/campeones/furia/h-e.png">
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <ul class="collection">
+                                <li class="collection-item">
+                                    <h5>Deflagración</h5>
+                                </li>
+                                <li class="collection-item"><strong>Tipo: </strong>Poder definitivo</li>
+                                <li class="collection-item"><strong>Descripción: </strong>Canaliza la Pira y vuélvete invulnerable durante 2 segundos. Después, tú y tus aliados dentro de un área de 150 pies alrededor de ti infligen 30% de daño de arma adicionales y reciben 30% de velocidad de movimiento; ambos efectos durante 8 segundos.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><br>
+        <h4>Talentos</h4>
+        <div class="row">
+           <div class="col s12">
+                <div class="card horizontal talent">
+                    <div class="card-image valign-wrapper">
+                        <img src="../../img/campeones/furia/t-1.png">
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <ul class="collection">
+                                <li class="collection-item">
+                                    <h5>Valor</h5>
+                                </li>
+                                <li class="collection-item"><strong>Requisito para desbloquearlo: </strong>Ninguno, es el talento por defecto</li>
+                                <li class="collection-item"><strong>Descripción: </strong>Encendedor de Almas cura hasta un 50% adicional de acuerdo en la salud restante del aliado afectado.</li>
+                                <li class="collection-item"><strong>Cuando usar este talento: </strong>Cuando quieres aumentar el potencial de tu curación hacía tus aliados.</li>
+                                <li class="collection-item"><strong>Baraja sugerida para éste talento <img class="responsive-img materialboxed" width="650" src="../../img/campeones/furia/ta-1.jpg"></strong></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12">
+                <div class="card horizontal talent">
+                    <div class="card-image valign-wrapper">
+                        <img src="../../img/campeones/furia/t-2.png">
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <ul class="collection">
+                                <li class="collection-item">
+                                    <h5>Diligencia</h5>
+                                </li>
+                                <li class="collection-item"><strong>Requisito para desbloquearlo: </strong>Llegar al nivel 2 con este campeón</li>
+                                <li class="collection-item"><strong>Descripción: </strong>Alas de Ira lanzan una bola de fuego adicional.</li>
+                                <li class="collection-item"><strong>Cuando usar este talento: </strong>Cuando usas mucho tu habilidad de movimiento y quieres potenciarla para que te sea aún más útil.</li>
+                                <li class="collection-item"><strong>Baraja sugerida para éste talento <img class="responsive-img materialboxed" width="650" src="../../img/campeones/furia/ta-2.jpg"></strong></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12">
+                <div class="card horizontal talent">
+                    <div class="card-image valign-wrapper">
+                        <img src="../../img/campeones/furia/t-3.png">
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <ul class="collection">
+                                <li class="collection-item">
+                                    <h5>Bendición Solar</h5>
+                                </li>
+                                <li class="collection-item"><strong>Requisito para desbloquearlo: </strong>Llegar al nivel 8 con este campeón</li>
+                                <li class="collection-item"><strong>Descripción: </strong>Golpe Pirotécnico ahora cura a los aliados que atraviesa por 300 de vida cada 0.5 segundos.</li>
+                                <li class="collection-item"><strong>Cuando usar este talento: </strong>Cuando tu equipo necesite un mayor apoyo en cuanto a curación que a daño.</li>
+                                <li class="collection-item"><strong>Baraja sugerida para éste talento <img class="responsive-img materialboxed" width="650" src="../../img/campeones/furia/ta-3.jpg"></strong></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12">
+                <div class="card horizontal talent">
+                    <div class="card-image valign-wrapper">
+                        <img src="../../img/campeones/furia/t-4.png">
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <ul class="collection">
+                                <li class="collection-item">
+                                    <h5>Exterminar</h5>
+                                </li>
+                                <li class="collection-item"><strong>Requisito para desbloquearlo: </strong>Llegar al nivel 12 con este campeón</li>
+                                <li class="collection-item"><strong>Descripción: </strong>Cuando un enemigo es afectado por el Golpe Pirotécnico la habilidad deja de moverse hasta que termine su duración.</li>
+                                <li class="collection-item"><strong>Cuando usar este talento: </strong>Cuando tu equipo necesite un mayor apoyo en cuanto a daño que a curación.</li>
+                                <li class="collection-item"><strong>Baraja sugerida para éste talento <img class="responsive-img materialboxed" width="650" src="../../img/campeones/furia/ta-4.jpg"></strong></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><br>
+        <h4>¿Qué ítems se deben comprar?</h4>
+        <p class="info-text">Solo puedes comprar un ítem por categoría, por lo tanto, los ítems sugeridos dependen de cada situación. La importancia de la categoría está ordenada de la más importante a la menos importante, de izquierda a derecha.</p>
+        <div class="row">
+            <div class="col s12">
+                <ul class="tabs">
+                    <li class="tab col s3 title"><a class="active" href="#utilidad">Utilidad</a></li>
+                    <li class="tab col s3 title"><a href="#ofensiva">Ofensiva</a></li>
+                    <li class="tab col s3 title"><a href="#defensa">Defensa</a></li>
+                    <li class="tab col s3 title"><a href="#curacion">Curación</a></li>
+                </ul>
+            </div>
+            <div id="defensa" class="col s12">
+                <div class="row">
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../../img/items/aguante.jpg">
+                                <a href="info/items/aguante" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Aguante<br><br></span>
+                                <p>Defensa</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../../img/items/ancora.jpg">
+                                <a href="info/items/ancora" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Áncora<br><br></span>
+                                <p>Defensa</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../../img/items/anti-golpazos.jpg">
+                                <a href="info/items/anti-golpazos" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Protección Anti Golpazos</span>
+                                <p>Defensa</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="utilidad" class="col s12">
+                <div class="row">
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../../img/items/aumento-moral.jpg">
+                                <a href="info/items/aumento-moral" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Aumento de la Moral</span>
+                                <p>Utilidad</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../../img/items/cronos.jpg">
+                                <a href="info/items/cronos" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Cronos<br><br></span>
+                                <p>Utilidad</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="curacion" class="col s12">
+                <div class="row">
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../../img/items/arranca-vida.jpg">
+                                <a href="info/items/arranca-vida" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Arranca Vida<br><br></span>
+                                <p>Curación</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../../img/items/matar-curar.jpg">
+                                <a href="info/items/matar-curar" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Matar para Curar</span>
+                                <p>Curación</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="ofensiva" class="col s12">
+                <div class="row">
+                    <div class="col s12 m6 l3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../../img/items/cauterizar.jpg">
+                                <a href="info/items/cauterizar" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Cauterizar<br><br></span>
+                                <p>Ofensiva</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><br>
+        <h4>¿Qué ítems la / lo contrarrestan?</h4>
+        <p class="info-text">La relevancia de los ítems está ordenada del más significativo a la menos significativo, de izquierda a derecha.</p>
+        <div class="row">
+            <div class="col s12 m6 l3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="../../img/items/cauterizar.jpg">
+                        <a href="info/items/cauterizar" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title">Cauterizar<br><br></span>
+                        <p>Ofensiva</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="../../img/items/ancora.jpg">
+                        <a href="info/items/ancora" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title">Áncora<br><br></span>
+                        <p>Defensa</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="../../img/items/aguante.jpg">
+                        <a href="info/items/aguante" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title">Aguante<br><br></span>
+                        <p>Defensa</p>
+                    </div>
+                </div>
+            </div>
+        </div><br>
+        <h4>¿Qué campeones puede contarrestar?</h4>
+        <div class="row">
+           <div class="col s12 m6 l3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="../../img/campeones/bomb-king.jpg">
+                        <a href="../../info/campeones/bomb-king" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title">Bomb King</span>
+                        <p>Su Majestad<br><br></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="../../img/campeones/drogoz.jpg">
+                        <a href="../../info/campeones/drogoz" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title">Drogoz</span>
+                        <p>El Codicioso<br><br></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="../../img/campeones/kinessa.jpg">
+                        <a href="../../info/campeones/kinessa" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title">Kinessa</span>
+                        <p>La Cazarrecompensas<br><br></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="../../img/campeones/willo.jpg">
+                        <a href="../../info/campeones/willo" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title">Willo</span>
+                        <p>De las Cortes de Verano<br><br></p>
+                    </div>
+                </div>
+            </div>
+        </div><br>
+        <h4>¿Qué campeones la / lo contrarrestan?</h4>
+        <div class="row">
+           <div class="col s12 m6 l3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="../../img/campeones/buck.jpg">
+                        <a href="../../info/campeones/buck" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title">Buck</span>
+                        <p>El Inflexible<br><br></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="../../img/campeones/maeve.jpg">
+                        <a href="../../info/campeones/maeve" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title">Maeve</span>
+                        <p>De Cuchillas<br><br></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="../../img/campeones/makoa.jpg">
+                        <a href="../../info/campeones/makoa" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title">Makoa</span>
+                        <p>El Prehistorico<br><br></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="../../img/campeones/zhin.jpg">
+                        <a href="../../info/campeones/zhin" class="btn-floating halfway-fab blue darken-2 tooltipped btn-info" data-position="top" data-tooltip="Ver información"><i class="material-icons">exit_to_app</i></a>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title">Zhin</span>
+                        <p>El Tirano<br><br></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="page-footer blue-grey darken-4">
+        <div class="container">
+            <div class="row">
+                <div class="col l5 s12">
+                    <h5 class="white-text">Contáctanos</h5>
+                    <p class="grey-text text-lighten-4">Si tienes algúna sugerencia o quieres ponerte en contacto con nosotros, puedes hacerlo mediante PaladinsInfoWeb@gmail.com o a través del grupo <a class="grey-text text-lighten-4" href="https://www.facebook.com/groups/paladinslatamgrup/">Paladins Latam</a>.</p>
+                </div>
+                <div class="col l5 offset-l2 s12">
+                    <h5 class="white-text">Acerca del sitio</h5>
+                    <p class="grey-text text-lighten-4">Éste sitio web no recolecta ningún tipo de dato, solo es un espacio de consulta. Los datos presentados en él se publicarón únicamente con el fin de servir de apoyo. El texto e imágenes presentadas en éste espacio pertenecen a Hi-Rez Studios, y se usarón únicamente con fines ilustrativos.</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2018 Paladins Info
+                <a class="grey-text text-lighten-4 right" href="https://www.facebook.com/groups/paladinslatamgrup/">Visita Paladins Latam</a>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="../../js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="../../js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.parallax').parallax();
+            $('.tabs').tabs();
+            $('.sidenav').sidenav();
+            $('.tooltipped').tooltip();
+            $('.materialboxed').materialbox();
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 100) {
+                    $('#btn-up').addClass('scale-in');
+                } else {
+                    $('#btn-up').removeClass('scale-in');
+                }
+            });
+            $('#btn-up').click(function() {
+                $('html, body').animate({
+                    scrollTop: 0
+                }, 600);
+                return false;
+            });
+            $('#btn-up').hover(function() {
+                $('#btn-up').toggleClass('pulse');
+            });
+            $('.btn-info').hover(function() {
+                $(this).toggleClass('pulse');
+            });
+        });
+    </script>
+</body>
+
+</html>
